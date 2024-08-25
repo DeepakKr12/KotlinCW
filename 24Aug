@@ -1,0 +1,194 @@
+/**
+ * You can edit, run, and share this code.
+ * play.kotlinlang.org
+ */
+/*
+fun main() {
+    print("hii, world")
+    println("Hello, world!!!")
+	
+}
+*/
+
+/*
+fun main(args: Array<String>){
+    var a=40
+    a = 40.5
+    print(a)
+    var TRY = 40
+    print(TRY)
+}
+*/
+
+/*
+fun main(args: Array<String>){
+    var a=40
+    print(a)
+    var `try` = 44
+    print(`try`)
+}
+*/
+
+
+/*
+fun main(){
+    var a: Int
+    a = 10
+    val b = 10
+    var c: Int
+    c = a+b
+    print("-------------"+c+"---------------")
+}
+*/
+
+/*
+fun main(){
+    var a = 10
+    var ___A = 20
+    println(___A)
+    var string = 11
+    println(string)
+    var void = 22
+    println(void)
+    
+}
+*/
+
+/*
+fun main(){
+    var age: Int = 25
+    println(age)
+}
+*/
+
+/*
+fun greet(){
+    val message: String = "Hello, Kotlin"
+    println(message)
+}
+*/
+
+/*
+class Person{
+    var name: String = "Deepak Kumar"
+    val age: Int = 20
+    fun displayInfo{
+        println("Name: $name, Age: $age")
+    }
+}
+fun main(){
+    
+}
+*/
+/*
+fun main(){
+    val a = 10
+    val b =20
+    val result = "Sum of $a a $b is ${a+b}"
+    println(result)
+}
+*/
+
+/*
+fun main(args:Array<String>){
+    val letter: Char
+    letter = 'A'
+    print($letter)
+//     val letter2: String
+//     letter2 = """Hello world,welcome to kotlin"""
+//     print($letter2)
+    print("""Hello world,
+    welcome to 
+    kotlin""")
+}
+*/
+
+/*
+fun main(){
+    val numbers = arrayOf(1,2,3,4,5)   
+    println(numbers[0])
+    
+    val size = numbers.size
+    println("Size: " + size)
+    
+    if(numbers.isEmpty()){
+        println("Numbers arrray is empty")
+    }
+    else{
+        println("Numbers arrray is not empty")
+    }
+    
+    val words: Array<String> = arrayOf("Kotlin","Java","Python")
+    println(words[1])
+    
+    val squares = Array(5) {i -> i * i}
+    println(squares[2])
+}
+*/
+
+/*
+fun checkNumber(num: Int) {
+    if (num > 0) {
+        println("Positive number")
+    } else if (num < 0) {
+        println("Negative number")
+    } else {
+        println("Zero")
+    }
+}
+
+checkNumber(5)   // Output: Positive number
+checkNumber(-2)  // Output: Negative number
+checkNumber(0)   // Output: Zero
+*/
+
+/*
+fun describeNumber(num: Int) {
+    when (num) {
+        1 -> println("One")
+        2 -> println("Two")
+        3 -> println("Three")
+        in 4..10 -> println("Between Four and Ten")
+        else -> println("Out of range")
+    }
+}
+
+describeNumber(1)  // Output: One
+describeNumber(7)  // Output: Between Four and Ten
+describeNumber(15) // Output: Out of range
+*/
+
+/*
+fun divide(a: Int, b: Int): Int {
+    return try {
+        a / b
+    } catch (e: ArithmeticException) {
+        println("Cannot divide by zero")
+        0
+    } finally {
+        println("Operation completed")
+    }
+}
+
+println(divide(4, 2))  // Output: 2
+println(divide(4, 0))  // Output: Cannot divide by zero, Operation completed, 0
+*/
+
+
+fun main() {
+    
+    val totalAmount = 1000 
+
+    val hasMembership = true 
+
+    if (totalAmount >= 1000) {
+        if (hasMembership) {
+            println("You are eligible for a 20% discount.")
+        } else {
+            println("You are eligible for a 10% discount.")
+        }
+    } else {
+        println("No discount available.")
+    }
+}
+
